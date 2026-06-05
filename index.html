@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portofolio IT Programmer — implementasi enterprise DPPK/DPLK, asuransi jiwa grup (GLI), dan ERP BOS untuk BCA, BRI, BTN, BNI, PLN, BPJS, Taspen, Sequis." />
+    <title>FSN | IT Programmer — Portofolio Enterprise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-BYJWUSoB.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CIEoZkhd.css">
+  </head>
+  <body class="has-custom-cursor intro-active">
+    <div id="intro-screen" class="intro-screen" aria-live="polite">
+      <canvas id="intro-canvas" aria-hidden="true"></canvas>
+      <div class="intro-grid" aria-hidden="true"></div>
+      <div class="intro-content">
+        <div class="intro-boot" id="intro-boot"></div>
+        <div class="intro-logo">
+          <span class="intro-bracket">&lt;</span>
+          <span class="intro-title" data-text="FSN">FSN</span>
+          <span class="intro-bracket">/&gt;</span>
+        </div>
+        <p class="intro-sub">IT PROGRAMMER · DPPK · GLI · BOS ERP</p>
+        <div class="intro-progress-wrap">
+          <svg class="intro-ring" viewBox="0 0 100 100" aria-hidden="true">
+            <defs>
+              <linearGradient id="intro-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#00f0ff" />
+                <stop offset="50%" stop-color="#8844ff" />
+                <stop offset="100%" stop-color="#ff00aa" />
+              </linearGradient>
+            </defs>
+            <circle class="intro-ring-bg" cx="50" cy="50" r="45" />
+            <circle class="intro-ring-fill" id="intro-ring-fill" cx="50" cy="50" r="45" />
+          </svg>
+          <span class="intro-percent" id="intro-percent">0%</span>
+        </div>
+        <p class="intro-tag">PLITASOFT ENTERPRISE PORTFOLIO</p>
+      </div>
+    </div>
+
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+    <div class="scanlines" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="noise-overlay" aria-hidden="true"></div>
+    <canvas id="transition-canvas" aria-hidden="true"></canvas>
+
+    <div class="transition-hud" id="transition-hud" aria-hidden="true">
+      <div class="transition-hud-inner">
+        <span class="transition-label" id="transition-label">LOADING</span>
+        <span class="transition-code" id="transition-code">SYS.00</span>
+        <div class="transition-bar-wrap">
+          <div class="transition-bar" id="transition-bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="section-progress" id="section-progress" aria-label="Navigasi seksi"></nav>
+
+    <p class="interaction-hint" id="interaction-hint" aria-hidden="true">
+      Hover & klik elemen · Klik menu untuk pindah halaman
+    </p>
+
+    <header class="nav" id="nav">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>FSN<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">Tentang</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#projects">Proyek</a>
+        <a href="#experience">Pengalaman</a>
+        <a href="#contact" class="nav-cta">Kontak</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero" data-section="hero">
+        <div class="hero-content" data-parallax="0.05">
+          <p class="hero-tag" data-animate>
+            <span class="pulse-dot"></span>
+            SYSTEM ONLINE — 23 PROYEK ENTERPRISE · 6 KLASTER
+          </p>
+          <h1 class="hero-title" data-animate>
+            <span class="title-line">Halo, saya</span>
+            <span class="title-name glitch" data-text="FSN Developer" title="Hover untuk efek scramble">FSN Developer</span>
+          </h1>
+          <p class="hero-sub" data-animate>
+            <span class="typing" id="typing-text"></span>
+            <span class="cursor-blink">|</span>
+          </p>
+          <div class="hero-actions" data-animate>
+            <a href="#projects" class="btn btn-primary">
+              <span>Lihat Proyek</span>
+              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+          </div>
+          <div class="hero-stats" data-animate>
+            <div class="stat">
+              <span class="stat-num" data-count="10">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Tahun Pengalaman</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num" data-count="23">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Proyek Enterprise</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num" data-count="20">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Teknologi</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-hud" aria-hidden="true">
+          <div class="hud-ring"></div>
+          <div class="hud-coords">X: <span id="mouse-x">0</span> Y: <span id="mouse-y">0</span></div>
+        </div>
+      </section>
+
+      <section id="about" class="section about" data-section="about">
+        <div class="section-header" data-animate>
+          <span class="section-index">01</span>
+          <h2 class="section-title">Tentang Saya</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="about-grid">
+          <div class="about-card glass" data-animate>
+            <div class="card-corner tl"></div>
+            <div class="card-corner br"></div>
+            <h3>IT Programmer Enterprise</h3>
+            <p>
+              Portofolio implementasi Plitasoft untuk industri dana pensiun (DPPK/DPLK),
+              asuransi jiwa grup (GLI), dan ERP back-office (BOS). Pengalaman membangun
+              sistem multi-modul — kepesertaan, klaim, investasi, akuntansi, batch processing,
+              hingga pelaporan regulasi OJK — dengan evolusi teknologi dari legacy .NET 4.0
+              hingga modern .NET 6/10 microservices.
+            </p>
+          </div>
+          <div class="about-info" data-animate>
+            <ul class="info-list">
+              <li><span class="info-key">Nama</span><span class="info-val">FSN Developer</span></li>
+              <li><span class="info-key">Role</span><span class="info-val">IT Programmer · Enterprise Systems</span></li>
+              <li><span class="info-key">Spesialisasi</span><span class="info-val">DPPK / DPLK · GLI · BOS ERP</span></li>
+              <li><span class="info-key">Klien</span><span class="info-val">BCA, BRI, BTN, BNI, PLN, BPJS, Taspen, Sequis</span></li>
+              <li><span class="info-key">Database</span><span class="info-val">SQL Server (multi-DB ADM/KEP/INV/ACC/MIS)</span></li>
+              <li><span class="info-key">Status</span><span class="info-val status-open">Terbuka untuk proyek</span></li>
+            </ul>
+            <a href="/cv.html" class="btn btn-outline" target="_blank" rel="noopener">Lihat &amp; Unduh CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills" data-section="skills">
+        <div class="section-header" data-animate>
+          <span class="section-index">02</span>
+          <h2 class="section-title">Keahlian Teknis</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-grid" id="skills-grid"></div>
+      </section>
+
+      <section id="projects" class="section projects" data-section="projects">
+        <div id="projects-list-view" class="projects-list-view">
+          <div class="section-header" data-animate>
+            <span class="section-index">03</span>
+            <h2 class="section-title">Portofolio Proyek</h2>
+            <div class="section-line"></div>
+          </div>
+          <p class="section-desc" data-animate>23 implementasi enterprise — dana pensiun, asuransi jiwa grup, ERP, dan CMS channel management.</p>
+          <div class="projects-grid" id="projects-grid"></div>
+          <div class="section-header section-header-sub" data-animate>
+            <span class="section-index">03.1</span>
+            <h2 class="section-title">Klaster Arsitektur</h2>
+            <div class="section-line"></div>
+          </div>
+          <div class="clusters-grid" id="clusters-grid"></div>
+        </div>
+
+        <div id="project-detail-view" class="project-detail-view hidden" aria-hidden="true">
+          <div id="project-detail-content"></div>
+        </div>
+      </section>
+
+      <div id="screenshot-lightbox" class="screenshot-lightbox" aria-hidden="true" role="dialog" aria-label="Preview capture aplikasi">
+        <div class="lightbox-backdrop"></div>
+        <div class="lightbox-panel glass">
+          <button type="button" class="lightbox-close" aria-label="Tutup preview">&times;</button>
+          <img class="lightbox-img" src="" alt="" />
+          <p class="lightbox-caption"></p>
+        </div>
+      </div>
+
+      <section id="experience" class="section experience" data-section="experience">
+        <div class="section-header" data-animate>
+          <span class="section-index">04</span>
+          <h2 class="section-title">Evolusi Teknologi</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="timeline" id="timeline"></div>
+      </section>
+
+      <section id="contact" class="section contact" data-section="contact">
+        <div class="section-header" data-animate>
+          <span class="section-index">05</span>
+          <h2 class="section-title">Inisiasi Kontak</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-wrap">
+          <form class="contact-form glass" id="contact-form" data-animate>
+            <div class="card-corner tl"></div>
+            <div class="card-corner br"></div>
+            <div class="form-row">
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda" />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="email@domain.com" />
+            </div>
+            <div class="form-row">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Ceritakan proyek atau kolaborasi Anda..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Kirim Transmisi</span>
+            </button>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+          <div class="contact-links" data-animate>
+            <a href="mailto:hello@fsn.dev" class="contact-link">
+              <span class="link-icon">@</span>
+              <span>hello@fsn.dev</span>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener" class="contact-link">
+              <span class="link-icon">GH</span>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-link">
+              <span class="link-icon">IN</span>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+        <footer class="footer">
+          <p>&copy; 2026 FSN Developer — DPPK · DPLK · GLI · BOS — Built with Three.js &amp; Vite</p>
+          <p class="footer-code">// plitasoft_portfolio.end()</p>
+        </footer>
+      </section>
+    </main>
+
+  </body>
+</html>
